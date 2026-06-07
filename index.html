@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio – Tyaswiranti Fajrina</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            maroon: '#ec4899',
+            'maroon-dark': '#4A0E18',
+            'maroon-light': '#A52040',
+            cream: '#F5F0EB',
+            'gray-grunge': '#DEDBD5',
+          },
+          fontFamily: {
+            display: ['Anton', 'sans-serif'],
+            condensed: ['Anton', 'sans-serif'],
+            body: ['Barlow', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  
+</head>
+<body>
+
+  <!-- ====== NAVBAR ====== -->
+  <nav id="navbar">
+    <!-- Desktop nav -->
+    <div class="nav-desktop">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About Me</a>
+      <a href="#artefak-produk" class="nav-link">Artefak Produk</a>
+      <a href="#lampiran" class="nav-link">Lampiran</a>
+    </div>
+
+    <!-- Mobile nav -->
+    <div class="nav-mobile-header">
+      <span class="nav-mobile-logo">TYASWIRANTI FAJRINA</span>
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="nav-mobile-menu" id="mobileMenu">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About Me</a>
+      <a href="#aretfak-produk" class="nav-link">Artefak Produk</a>
+      <a href="#lampiran" class="nav-link">Lampiran</a>
+    </div>
+  </nav>
+
+   <!-- ====== HERO ====== -->
+  <section style="background-image: url(asset/foto/background.webp); background-repeat:repeat;" id="home" class="relative min-h-screen flex flex-col justify-center overflow-hidden hero-bg">
+    <div class="grunge-overlay"></div>
+ 
+    <!-- PORTOFOLIO title -->
+    <div class="relative z-10 w-full overflow-hidden">
+      <h1 class="font-display mb-24 drop-shadow-4xl text-center text-[22vw] text-shadow-bold leading-none text-maroon-light select-none animate-fade-up hero-title-text ">PORTOFOLIO</h1>
+    </div>
+ 
+    <!-- 3-column grid: kiri (2026), tengah (foto), kanan (nama) -->
+    <div class="relative z-10 grid grid-cols-3 items-end w-full px-6 md:px-10 mt-[-2vw]">
+ 
+      <!-- Kolom Kiri: tahun + bintang -->
+      <div class="flex flex-col justify-end pb-6 animate-fade-up delay-200" style="align-self: end;">
+        <p class="font-display text-[14vw]  md:text-[6vw] text-maroon-light text-shadow-bold leading-none">2026</p>
+        <div class="flex gap-1 md:gap-2 mt-2 text-maroon text-sm md:text-xl">
+          <span>✦</span><span>✦</span><span>✦</span><span>✦</span>
+        </div>
+      </div>
+ 
+      <!-- Kolom Tengah: foto portrait -->
+      <div class="flex justify-center items-end animate-fade-up delay-300">
+        <div class="hero-photo-wrap relative">
+          <div class=" mb-24 flex items-center justify-center overflow-hidden scale-[4.0] ">
+            <img class="mb-24" width="1000" height="auto" src="asset/foto/foto1.png" alt="Tyaswiranti Fajrina">
+          </div>
+        </div>
+      </div>
+ 
+      <!-- Kolom Kanan: nama + NIPD -->
+      <div class="flex flex-col items-end justify-end text-left animate-fade-up delay-400" style="align-self: end; padding-bottom: 0.5rem;">
+        <p class="font-body font-black text-[2vw] text-maroon-light leading-tight hero-name-text">TYASWIRANTI FAJRINA</p>
+        <div class="dashed-line-right my-2"></div>
+        <p class="font-body text-maroon-light text-[2vw] md:text-2xl tracking-widest">NIPD: 2500103916810040</p>
+        <div class="flex gap-1 md:gap-2 mt-3 text-maroon text-sm md:text-xl justify-end">
+          <span>✦</span><span>✦</span><span>✦</span><span>✦</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== LPTK ====== -->
+<section class="relative min-h-[70vh] flex items-center overflow-hidden bg-maroon-dark via-indigo-950 to-slate-800">
+  <div class="absolute inset-0 bg-black/30"></div>
+
+  <div class="relative z-10 w-full px-8 md:px-20 py-16">
+
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+
+      <!-- TEXT (KIRI) -->
+      <div class="text-white">
+        <span class="inline-block px-4 py-2 rounded-full bg-cyan-500/20 text-cyan-300 text-sm tracking-widest uppercase mb-4">
+          Lembaga Pendidikan Tenaga Kependidikan
+        </span>
+
+        <h2 class="font-display text-[12vw] md:text-[4vw] leading-none mb-4 font-bold">
+          LPTK
+        </h2>
+
+        <h3 class="font-body text-3xl md:text-5xl font-semibold mb-6 text-cyan-300">
+          UNIVERSITAS NEGERI SURABAYA
+        </h3>
+
+        <p class="font-body text-slate-300 text-lg md:text-xl leading-relaxed max-w-xl">
+          Gedung W1 LP3, Kampus Unesa II Lidah Wetan,
+          <br>
+          Jl. Lidah Wetan, Surabaya
+        </p>
+
+        <div class="mt-8 flex gap-4 flex-wrap">
+          
+        </div>
+      </div>
+
+      <!-- MAPS (KANAN) -->
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.646896325249!2d112.66987012476079!3d-7.3022561927054594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fc523c3800a7%3A0x47fe62c1ce229a74!2sGed.%20W1%20LPSP%20Universitas%20Negeri%20Surabaya!5e1!3m2!1sid!2sid!4v1780812626477!5m2!1sid!2sid"
+          class="w-full h-[350px] rounded-3xl shadow-2xl border border-white/20"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ====== TEMPAT PPL ====== -->
+<section class="relative min-h-[70vh] flex items-center overflow-hidden bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-800">
+  <div class="absolute inset-0 bg-black/30"></div>
+
+  <div class="relative z-10 w-full px-8 md:px-20 py-16">
+    
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+
+      <!-- MAPS -->
+      <div class="order-2 md:order-1">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.5030201945187!2d112.71112507476104!3d-7.319337992688789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fc9cd33cc19d%3A0x3b42a8eefa4352c8!2sSMP%20Negeri%2021%20Surabaya!5e1!3m2!1sid!2sid!4v1780493207023!5m2!1sid!2sid"
+          class="w-full h-[350px] rounded-3xl shadow-2xl border border-white/20"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+      <!-- TEXT -->
+      <div class="order-1 md:order-2 text-white">
+        <span class="inline-block px-4 py-2 rounded-full bg-cyan-500/20 text-cyan-300 text-sm tracking-widest uppercase mb-4">
+          Praktik Pengalaman Lapangan
+        </span>
+
+        <h2 class="font-display text-[12vw] md:text-[4vw] leading-none mb-4 font-bold">
+          Tempat PPL
+        </h2>
+
+        <h3 class="font-body text-3xl md:text-5xl font-semibold mb-6 text-cyan-300">
+          SMP NEGERI 21 SURABAYA
+        </h3>
+
+        <p class="font-body text-slate-300 text-lg md:text-xl leading-relaxed max-w-xl">
+          Jl. Jambangan Blk. 4, Jambangan, Kec. Jambangan, 
+          <br>
+          Surabaya, Jawa Timur
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+  <!-- ====== ABOUT ME ====== -->
+  <section style="background-image: url(asset/foto/background.webp); background-repeat: repeat;" id="about" class="relative grunge-bg-light overflow-hidden">
+    <div class="grunge-overlay"></div>
+    
+    <!-- PENGATUR GAP ATAS: pt-8 md:pt-10 (Bisa diperkecil lagi jadi pt-4 kalau masih kurang naik) -->
+    <div class="relative z-10 w-full px-6 md:px-16 pt-8 md:pt-10 pb-0">
+      
+      <!-- Judul -->
+      <h2 class="font-display text-[12vw] md:text-[8vw] text-maroon-light leading-none text-shadow-bold mb-0 select-none">TENTANG SAYA</h2>
+      
+      <!-- PENGATUR GAP BAWAH (KUNCI UTAMANYA DI SINI) -->
+      <!-- Tambahkan -mb-12 md:-mb-20 untuk menarik section berikutnya ke atas secara paksa -->
+      <div class="flex flex-col md:flex-row gap-12 -mt-10 md:-mt-24 -mb-12 md:-mb-20 relative z-10">
+
+        <!-- Kolom Kiri: Foto -->
+        <div class="w-full md:w-1/2 flex justify-center items-end pb-0">
+          <div class="relative
+                      w-[220px]
+                      sm:w-[280px]
+                      md:w-[350px]
+                      lg:w-[450px]
+                      xl:w-[520px]">
+            <img
+              src="asset/foto/foto_2.png"
+              alt="Tyaswiranti Fajrina"
+              class="w-full h-auto object-contain object-bottom">
+            
+            <div class="absolute bottom-6 -right-2 flex gap-2 text-maroon text-xl">
+              ✦ ✦
+            </div>
+          </div>
+        </div>
+
+        <!-- Kolom Kanan: Teks -->
+        <div class="w-full md:w-1/2 flex flex-col justify-start pb-0">
+          <h3 class="font-display text-5xl md:text-7xl text-maroon leading-none mb-2">TYASWIRANTI</h3>
+          <h3 class="font-display text-right text-5xl md:text-7xl text-maroon leading-none mb-2">FAJRINA</h3>
+          <div class="dashed-line mb-2"></div>
+          
+          <p class="font-body text-black text-base md:text-lg leading-relaxed mb-0">
+            Halo! Saya Tyaswiranti Fajrina, biasa dipanggil Ranti. Saya berasal dari Sidoarjo, Jawa Timur, dan memiliki minat besar di bidang pendidikan serta pengembangan diri. Saya percaya bahwa proses belajar tidak hanya terjadi di dalam kelas, tetapi juga melalui pengalaman, tantangan, dan kesempatan untuk terus berkembang. <br><br>
+            Sebagai seseorang yang senang mempelajari hal-hal baru, saya selalu berusaha menjalani setiap proses dengan semangat, rasa syukur, dan keinginan untuk memberikan manfaat bagi orang lain. Bagi saya, pendidikan adalah tentang bertumbuh, berbagi, dan menciptakan dampak positif melalui ilmu dan pengalaman. <br><br>
+            E-portfolio berbasis website ini saya buat sebagai media untuk memperkenalkan diri, mendokumentasikan perjalanan pendidikan, pengalaman, serta karya yang telah saya capai. Terima kasih telah berkunjung, semoga informasi dan karya yang saya bagikan dapat memberikan inspirasi dan manfaat.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== KEUNIKAN SIDOARJO ====== -->
+<section  class="relative min-h-screen flex items-center bg-maroon-dark overflow-hidden">
+
+  <!-- Overlay -->
+  <div class="grunge-overlay-dark"></div>
+
+  <!-- Logo Sidoarjo Watermark -->
+  <img
+    src="asset/logosda.webp"
+    alt="Logo Kabupaten Sidoarjo"
+    class="absolute inset-0 m-auto w-[250px] md:w-[450px] opacity-[0.1] object-contain pointer-events-none select-none"
+  >
+
+  <div class="relative z-10 w-full px-6 md:px-16 py-20">
+
+    <!-- Heading -->
+    <h2 class="font-display text-center text-[9vw] md:text-[7vw] text-white leading-none mb-16">
+      SIDOARJO
+    </h2>
+
+    <!-- Content -->
+    <div class="grid md:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
+
+      <!-- TEXT -->
+      <div class="order-1 md:order-2">
+
+        <span class="font-condensed tracking-[0.3em] text-white text-sm uppercase">
+          Bumi Jenggala
+        </span>
+
+        <h3 class="font-condensed text-white text-4xl md:text-5xl mt-3 mb-6 leading-tight">
+          Keunikan Kabupaten Sidoarjo
+        </h3>
+
+        <p class="font-body text-white/70 leading-relaxed mb-5">
+          Sidoarjo merupakan salah satu kabupaten di Jawa Timur yang dikenal
+          sebagai Bumi Jenggala. Daerah ini memiliki perpaduan unik antara
+          perkembangan industri modern, kekayaan budaya, serta kehidupan
+          masyarakat yang masih menjunjung tinggi nilai kebersamaan dan
+          gotong royong.
+        </p>
+
+        <p class="font-body text-white/70 leading-relaxed mb-5">
+          Selain terkenal sebagai penghasil udang dan bandeng, Sidoarjo juga
+          memiliki beragam kuliner khas, sentra UMKM yang berkembang, serta
+          berbagai destinasi wisata yang menjadi bagian penting dari identitas
+          daerah. Keberagaman tersebut mencerminkan potensi lokal yang terus
+          tumbuh dan beradaptasi dengan perkembangan zaman.
+        </p>
+
+        <p class="font-body text-white/70 leading-relaxed">
+          Tradisi, keramahan masyarakat, dan semangat kerja keras yang dimiliki
+          warganya menjadikan Sidoarjo sebagai daerah yang tidak hanya maju
+          secara ekonomi, tetapi juga kaya akan nilai, karakter, dan kearifan
+          lokal yang tetap terjaga hingga saat ini.
+        </p>
+
+        <!-- Ornament -->
+        <div class="flex gap-3 mt-8">
+          <span class="text-maroon-light text-lg">✦</span>
+          <span class="text-maroon-light text-lg">✦</span>
+          <span class="text-maroon-light text-lg">✦</span>
+          <span class="text-maroon-light text-lg">✦</span>
+        </div>
+
+      </div>
+
+      <!-- IMAGE -->
+      <div class="order-2 md:order-1 flex justify-center">
+
+        <div class="relative w-full max-w-md">
+
+          <img
+            src="asset/foto/candi2.webp"
+            alt="Keindahan Kabupaten Sidoarjo"
+            class="w-full h-auto object-cover rounded-sm border border-white/10 shadow-xl"
+          >
+
+          <!-- Decorative Border -->
+          <div class="absolute -bottom-4 -right-4 w-full h-full border border-maroon/40 rounded-sm -z-10"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ====== INSPIRASI MENJADI GURU ====== -->
+<!-- ====== INSPIRASI MENJADI GURU ====== -->
+<!-- UBAH DI SINI: Hapus min-h-screen, ganti dengan padding (pt-12 pb-16) agar tinggi section pas dengan isinya -->
+<section style="background-image: url(asset/foto/background.webp); background-repeat: repeat;" class="relative flex items-center grunge-bg-light overflow-hidden pt-12 pb-16 md:pt-16 md:pb-20">
+
+  <div class="grunge-overlay"></div>
+
+  <!-- UBAH DI SINI: py-20 dihapus karena padding sudah diatur di section atas -->
+  <div class="relative z-10 w-full px-6 md:px-16">
+
+    <!-- Heading -->
+    <h2 class="font-display text-[11vw] md:text-[8vw] text-maroon text-center leading-none text-shadow-bold mb-0">
+      INSPIRASI MENJADI GURU
+    </h2>
+
+    <!-- UBAH DI SINI: mb-12 diperkecil jadi mb-8 -->
+    <div class="flex gap-3 mb-8">
+      <span class="text-maroon text-xl">✦</span>
+      <span class="text-maroon text-xl">✦</span>
+      <span class="text-maroon text-xl">✦</span>
+      <span class="text-maroon text-xl">✦</span>
+    </div>
+
+    <!-- UBAH DI SINI: items-center diganti items-start agar teks dan gambar sejajar lurus dari atas (tidak mengambang di tengah) -->
+    <div class="grid md:grid-cols-2 gap-12 lg:gap-16 items-start">
+
+      <!-- TEXT -->
+      <div>
+
+        <h3 class="font-condensed text-maroon text-3xl md:text-4xl mb-6 mt-2">
+          Mengapa Saya Memilih Dunia Pendidikan?
+        </h3>
+
+        <p class="font-body text-black leading-relaxed justify mb-5">
+          Ketertarikan saya pada dunia pendidikan tumbuh dari lingkungan keluarga
+          yang dekat dengan profesi guru. Sejak kecil, saya melihat bahwa seorang
+          guru bukan hanya mengajar di kelas, tetapi juga membimbing, mendengarkan,
+          dan menjadi bagian penting dalam proses tumbuh kembang murid.
+        </p>
+
+        <p class="font-body text-black leading-relaxed mb-5">
+          Bagi saya, menjadi guru bukan sekadar menyampaikan materi pelajaran,
+          tetapi juga menciptakan ruang belajar yang nyaman dan mendukung setiap
+          murid untuk berkembang sesuai potensi yang dimilikinya.
+        </p>
+
+        <p class="font-body text-black leading-relaxed">
+          Saya percaya bahwa setiap murid memiliki cerita, kemampuan, dan cara
+          belajar yang berbeda. Karena itu, saya ingin menjadi pendidik yang
+          tidak hanya hadir sebagai pengajar, tetapi juga sebagai sumber motivasi,
+          inspirasi, dan pengalaman belajar yang bermakna.
+        </p>
+
+        <div class="w-24 h-[2px] bg-maroon mt-8"></div>
+
+      </div>
+
+      <!-- IMAGE AREA -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+        <!-- FOTO PROFIL -->
+        <!-- UBAH DI SINI: Menambahkan h-[400px] md:h-[500px] pada div pembungkus agar gambar memanjang ke bawah -->
+        <div class="overflow-hidden rounded-sm border border-maroon/20 shadow-lg h-[350px] md:h-[500px]">
+          <img
+            src="asset/foto/AhaConvert_foto4.webp"
+            alt="Foto Guru"
+            class="w-full h-full object-cover"
+          >
+        </div>
+
+        <!-- FOTO MENGAJAR -->
+        <!-- UBAH DI SINI: Menambahkan tinggi yang sama agar proporsional -->
+        <div class="overflow-hidden rounded-sm border border-maroon/20 shadow-lg h-[350px] md:h-[500px] md:mt-16 mt-4">
+          <img
+            src="asset/siklus2/foto1.jpg"
+            alt="Aktivitas Mengajar"
+            class="w-full h-full object-cover"
+          >
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+  <!-- ====== PERSONAL SKILL ====== -->
+  <!-- <section class="relative min-h-screen flex items-center grunge-bg-light overflow-hidden">
+    <div class="grunge-overlay"></div>
+    <div class="relative z-10 w-full px-6 md:px-16 py-20">
+      <h2 class="font-display text-[12vw] md:text-[9vw] text-maroon leading-none text-shadow-bold mb-2">PERSONAL</h2>
+      <h2 class="font-display text-[12vw] md:text-[9vw] text-maroon leading-none text-shadow-bold mb-8">SKILL</h2>
+      <div class="flex gap-3 mb-10">
+        <span class="text-maroon text-xl">✦</span><span class="text-maroon text-xl">✦</span><span class="text-maroon text-xl">✦</span><span class="text-maroon text-xl">✦</span>
+      </div>
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <div class="mb-8">
+            <p class="font-condensed text-maroon text-2xl mb-3">• PHOTOGRAPHY</p>
+            <p class="font-body text-maroon/70 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in libero sit amet nisl cursus fringilla. Nullam felis orci, maximus sit.</p>
+          </div>
+          <div class="mb-8">
+            <p class="font-condensed text-maroon text-2xl mb-3">• MODELING</p>
+            <p class="font-body text-maroon/70 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in libero sit amet nisl cursus fringilla. Nullam felis orci, maximus sit.</p>
+          </div>
+          <div class="dashed-line"></div>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <div class="skill-img-placeholder bg-maroon/10 border border-maroon/20 h-48 flex items-center justify-center rounded-sm">
+            <span class="font-display text-maroon/30 text-lg">PHOTO</span>
+          </div>
+          <div class="skill-img-placeholder bg-maroon/10 border border-maroon/20 h-48 flex items-center justify-center rounded-sm">
+            <span class="font-display text-maroon/30 text-lg">MODEL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- ====== TUJUAN MENJADI GURU ====== -->
+<section class="relative min-h-screen flex items-center grunge-bg-dark overflow-hidden">
+
+  <!-- Overlay -->
+  <div class="grunge-overlay-dark"></div>
+
+  <!-- Watermark -->
+  <div class="absolute inset-0 flex items-center justify-center pointer-events-none select-none">
+    <span class="font-display text-[18vw] text-white/[0.03] leading-none">
+      EDUCATE
+    </span>
+  </div>
+
+  <!-- Decorative Elements -->
+  <div class="absolute top-24 right-20 w-48 h-48 border border-white/5 rounded-full"></div>
+  <div class="absolute bottom-24 left-20 w-32 h-32 border border-maroon/10 rounded-full"></div>
+
+  <div class="relative z-10 w-full px-6 md:px-16 py-20">
+
+    <!-- Heading -->
+    <div class="mb-14">
+
+      <p class="font-condensed tracking-[0.35em] text-maroon-light text-sm uppercase mb-3">
+        Vision & Purpose
+      </p>
+
+      <h2 class="font-display text-[10vw] md:text-[6vw] text-white leading-none">
+        TUJUAN MENJADI GURU
+      </h2>
+
+    </div>
+
+    <!-- Content -->
+    <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+      <!-- Left -->
+      <div>
+
+        <p class="font-body text-white/80 text-lg leading-relaxed mb-6">
+          Tujuan saya menjadi seorang guru adalah untuk berkontribusi dalam
+          membentuk generasi yang tidak hanya cerdas secara akademik, tetapi juga
+          memiliki karakter, empati, dan nilai-nilai kehidupan yang baik. Bagi saya,
+          pendidikan merupakan proses penting dalam membantu seseorang mengenali
+          potensi diri, membangun kepercayaan diri, serta mempersiapkan masa depan
+          yang lebih baik.
+        </p>
+
+        <p class="font-body text-white/70 leading-relaxed mb-6">
+          Saya percaya bahwa seorang guru memiliki peran lebih dari sekadar
+          menyampaikan materi pelajaran. Guru juga menjadi pembimbing, pendengar,
+          motivator, dan teladan bagi murid dalam proses tumbuh dan berkembang.
+          Karena itu, saya ingin menjadi pendidik yang mampu menciptakan suasana
+          belajar yang nyaman, menyenangkan, dan menghargai perbedaan kemampuan
+          maupun latar belakang setiap murid.
+        </p>
+
+        <p class="font-body text-white/70 leading-relaxed mb-10">
+          Melalui profesi ini, saya berharap dapat memberikan dampak positif bagi
+          lingkungan sekitar serta membantu murid berkembang secara optimal dalam
+          meraih cita-cita mereka.
+        </p>
+
+        <!-- Vision Points -->
+        <div class="grid grid-cols-3 gap-4">
+
+          <div class="border border-white/10 bg-white/5 p-4 text-center">
+            <span class="block font-display text-maroon-light text-3xl mb-2">
+              01
+            </span>
+            <p class="font-condensed text-white">
+              Karakter
+            </p>
+          </div>
+
+          <div class="border border-white/10 bg-white/5 p-4 text-center">
+            <span class="block font-display text-maroon-light text-3xl mb-2">
+              02
+            </span>
+            <p class="font-condensed text-white">
+              Pembimbing
+            </p>
+          </div>
+
+          <div class="border border-white/10 bg-white/5 p-4 text-center">
+            <span class="block font-display text-maroon-light text-3xl mb-2">
+              03
+            </span>
+            <p class="font-condensed text-white">
+              Inspirasi
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Right -->
+      <div class="relative">
+
+        <!-- Main Image -->
+        <div class="overflow-hidden rounded-sm border border-white/10 shadow-2xl">
+
+          <img
+            src="asset/foto/foto1.png"
+            alt="Tujuan Menjadi Guru"
+            class="w-full h-[500px] md:h-[600px] object-cover"
+          >
+
+        </div>
+
+        <!-- Decorative Border -->
+        <div class="absolute -top-5 -right-5 w-full h-full border border-maroon/30 rounded-sm -z-10"></div>
+
+        <!-- Floating Quote -->
+        <div class="absolute bottom-6 left-6 right-6 bg-black/70 backdrop-blur-sm border border-white/10 p-5">
+
+          <p class="font-condensed text-white text-lg italic leading-relaxed">
+            “Saya ingin hadir sebagai guru yang tidak hanya mengajarkan ilmu,
+            tetapi juga membantu murid menemukan potensi terbaik dalam dirinya.”
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ARTEFAK PRODUK-->
+ <!--SIKLUS 1-->
+
+<section id="artefak-produk" class="bg-cream min-h-screen py-12 px-4 md:px-8 flex flex-col font-body text-maroon-dark overflow-hidden">
+  
+  <div class="text-center mb-12">
+    <h1 class="font-display text-6xl md:text-[8vw] leading-[0.85] uppercase text-maroon-dark drop-shadow-sm">Artefak Produk</h1>
+  </div>
+
+  <div class="flex flex-wrap justify-center gap-3 md:gap-6 mb-10 border-b-2 border-gray-grunge pb-4 max-w-5xl mx-auto w-full">
+    <button class="siklus-tab active px-8 py-4 font-condensed text-lg md:text-xl tracking-[0.15em] uppercase text-maroon-dark border-2 border-gray-grunge rounded-sm bg-white hover:border-maroon hover:text-maroon transition-all duration-300" onclick="switchSiklus(0)">SIKLUS 1</button>
+    <button class="siklus-tab px-8 py-4 font-condensed text-lg md:text-xl tracking-[0.15em] uppercase text-maroon-dark border-2 border-gray-grunge rounded-sm bg-white hover:border-maroon hover:text-maroon transition-all duration-300" onclick="switchSiklus(1)">SIKLUS 2</button>
+    <button class="siklus-tab px-8 py-4 font-condensed text-lg md:text-xl tracking-[0.15em] uppercase text-maroon-dark border-2 border-gray-grunge rounded-sm bg-white hover:border-maroon hover:text-maroon transition-all duration-300" onclick="switchSiklus(2)">SIKLUS 3</button>
+  </div>
+
+  <div class="w-full max-w-[98%] 2xl:max-w-[1400px] mx-auto flex-grow">
+    
+    <div class="siklus-panel active" id="panel-0">
+      <div class="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-8 items-stretch h-full">
+        <div class="w-full bg-white border-2 border-gray-grunge shadow-2xl rounded-sm overflow-hidden flex flex-col">
+          <iframe src="asset/siklus1/ARTEFAK_PRODUK_RPL_PRIBADI.pdf" class="w-full flex-grow border-none" title="Jurnal Siklus 1"></iframe>
+          <a href="asset/siklus1/ARTEFAK_PRODUK_RPL_PRIBADI.pdf" target="_blank" class="block w-full bg-maroon-dark text-cream text-center py-4 font-condensed text-xl tracking-widest uppercase hover:bg-maroon transition-colors">&#8599; Buka Jurnal Siklus 1</a>
+        </div>
+        <div class="flex flex-col gap-6">
+          <div class="bg-white border-2 border-gray-grunge rounded-sm p-8 shadow-lg">
+            <div class="font-condensed text-xl uppercase text-maroon-light mb-2">SIKLUS 1 (RPL KLASIKAL)</div>
+            <div class="font-display text-4xl uppercase mb-3">RPL, DOKUMENTASI, HASIL ANALISIS </div>
+            <div class="font-body italic text-maroon-dark/80 border-l-4 border-maroon pl-4">konteks pembelajaran, tujuan, kelebihan, kekurangan, analisis teori.</div>
+          </div>
+          <div class="bg-white border-2 border-gray-grunge rounded-sm overflow-hidden flex-grow flex flex-col">
+             <div class="flex justify-between items-center px-4 py-2 border-b-2 border-gray-grunge bg-cream/50">
+               <span class="font-condensed font-bold tracking-widest text-sm uppercase">Dokumentasi</span>
+               <button onclick="nextImg('c0')" class="font-condensed font-bold tracking-widest text-sm uppercase bg-maroon-dark text-cream px-4 py-1 hover:bg-maroon transition-colors rounded-sm">NEXT ❯</button>
+             </div>
+             <div class="p-4 flex-grow">
+               <img id="img-c0" src="asset/siklus1/foto1.jpg" class="w-full h-full object-cover rounded border-2 border-gray-grunge">
+             </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white border-2 border-gray-grunge rounded-sm shadow-lg mt-8 overflow-hidden">
+      <div class="bg-gray-50 border-b-2 border-gray-grunge px-6 py-4">
+        <h3 class="font-display text-3xl uppercase text-maroon-dark m-0">Hasil Analisis</h3>
+      </div>
+      
+      <div class="p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-8 bg-gray-100 border-t-2 border-gray-grunge">
+        
+  <div class="flex flex-col gap-6">
+    <div>
+      <h4 class="font-body font-bold tracking-widest text-sm uppercase text-maroon-light mb-2">Konteks Layanan</h4>
+      <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+        Artefak produk disusun pada pelaksanaan PPL Terbimbing di SMP Negeri 21 Surabaya untuk murid kelas VIII. Berdasarkan hasil asesmen kebutuhan, ditemukan bahwa sebagian murid masih mengalami kesulitan dalam mengelola waktu dan menentukan prioritas kegiatan sehari-hari sehingga berdampak pada munculnya kebiasaan terlambat. Oleh karena itu, layanan bimbingan klasikal dirancang menggunakan permainan <em>Running Pyramid</em> dan media digital agar pembelajaran menjadi lebih menarik, aktif, dan bermakna bagi murid.
+      </p>
+    </div>
+    
+    <div>
+      <h4 class="font-body font-bold tracking-widest text-sm uppercase text-maroon-light mb-2">Tujuan</h4>
+      <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+        Artefak produk layanan bimbingan klasikal bertujuan membantu murid mengidentifikasi kegiatan produktif dan kurang produktif, mengevaluasi penggunaan waktu yang telah dilakukan, serta merancang jadwal kegiatan yang lebih efektif melalui penerapan manajemen waktu dalam kehidupan sehari-hari.
+      </p>
+    </div>
+
+    <div>
+      <h4 class="font-body font-bold tracking-widest text-sm uppercase text-maroon-light mb-2">Kendala dalam Penyusunan Produk</h4>
+      <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+        Kendala yang dihadapi dalam penyusunan produk ini adalah menentukan aktivitas yang mampu menggambarkan konsep manajemen waktu secara konkret serta memilih media yang sesuai dengan karakteristik murid kelas VIII. Selain itu, diperlukan pengaturan alokasi waktu yang tepat agar seluruh tahapan layanan dapat dilaksanakan secara efektif sesuai dengan tujuan yang telah ditetapkan.
+      </p>
+    </div>
+
+    <div>
+      <h4 class="font-body font-bold tracking-widest text-sm uppercase text-maroon-light mb-2">Faktor Keberhasilan Penerapan Produk</h4>
+      <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+        Keberhasilan layanan didukung oleh penggunaan metode <em>experiential learning</em> yang membuat murid terlibat secara aktif dalam proses pembelajaran. Permainan <em>Running Pyramid</em> mampu meningkatkan motivasi dan antusiasme murid selama mengikuti layanan. Materi yang diberikan sesuai dengan kebutuhan murid sehingga lebih mudah dipahami dan diterapkan dalam kehidupan sehari-hari. Selain itu, adanya kegiatan refleksi dan evaluasi melalui Quizizz membantu murid memahami pentingnya pengelolaan waktu yang efektif.
+      </p>
+    </div>
+  </div>
+
+  <div class="flex flex-col gap-6">
+    <div class="bg-cream/90 p-5 border border-gray-grunge rounded-sm">
+      <h4 class="font-body font-bold tracking-widest text-sm uppercase text-green-700 mb-3 border-b border-gray-grunge pb-2">Kelebihan Produk</h4>
+      <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+        Produk layanan bimbingan klasikal memiliki beberapa kelebihan, yaitu penggunaan metode yang melibatkan murid secara aktif melalui permainan <em>Running Pyramid</em> sehingga suasana layanan menjadi lebih menyenangkan. Selain itu, penggunaan platform Quizizz sebagai media evaluasi berbasis teknologi dapat meningkatkan motivasi dan keterlibatan murid. Materi yang diberikan juga bersifat kontekstual karena berkaitan dengan permasalahan yang sering dialami murid. Tujuan layanan disusun secara sistematis mulai dari aspek pengenalan, akomodasi, hingga tindakan sehingga memudahkan pencapaian kompetensi yang diharapkan.
+      </p>
+    </div>
+
+    <div class="bg-cream/30 p-5 border border-gray-grunge rounded-sm">
+      <h4 class="font-body font-bold tracking-widest text-sm uppercase text-red-700 mb-3 border-b border-gray-grunge pb-2">Kekurangan Produk</h4>
+      <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+        Produk layanan bimbingan klasikal masih memiliki beberapa keterbatasan. Pelaksanaan layanan memerlukan waktu yang cukup panjang karena terdiri atas beberapa tahapan aktivitas. Selain itu, penggunaan media digital membutuhkan sarana pendukung seperti koneksi internet dan perangkat elektronik yang memadai. Permainan yang digunakan juga memerlukan pengelolaan kelas yang baik agar kegiatan tetap kondusif. Tingkat partisipasi murid yang berbeda-beda dapat mempengaruhi ketercapaian tujuan layanan.
+      </p>
+    </div>
+  </div>
+  
+  <div class="md:col-span-2 border-t-2 border-dashed border-gray-grunge pt-6">
+      <h4 class="font-body font-bold tracking-widest text-sm uppercase text-maroon-light mb-4">Kajian Teori & Modifikasi Layanan</h4>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="font-body text-maroon-dark/90 leading-relaxed space-y-4 border-l-4 border-maroon pl-5 italic text-justify">
+          <p>
+            <strong class="font-bold">Kajian Teori dan Teori Pedagogi yang Diadopsi:</strong> Produk mengadopsi teori <em>Experiential Learning</em> yang dikembangkan oleh David Kolb. Teori tersebut menjelaskan bahwa pembelajaran akan lebih bermakna apabila murid memperoleh pengalaman secara langsung, melakukan refleksi terhadap pengalaman tersebut, memahami konsep yang berkaitan, kemudian menerapkannya dalam kehidupan sehari-hari. Tahapan Aktivitas, Refleksi, Konsep, dan Aplikasi yang digunakan dalam layanan merupakan implementasi dari siklus pembelajaran experiential learning.
+          </p>
+          <p>
+            Selain itu, produk ini juga didasarkan pada teori konstruktivisme yang menyatakan bahwa pengetahuan dibangun melalui pengalaman dan interaksi dengan lingkungan belajar. Pendekatan yang digunakan sejalan dengan konsep <em>deep learning</em> yang menekankan pembelajaran yang bersifat <em>mindful, meaningful</em>, dan <em>joyful</em>. Oleh karena itu, penggunaan permainan dan refleksi diharapkan dapat menghasilkan pemahaman yang lebih mendalam dibandingkan pembelajaran yang hanya berpusat pada penyampaian materi.
+          </p>
+        </div>
+        
+        <div class="font-body text-maroon-dark/90 leading-relaxed space-y-4 border-l-4 border-maroon pl-5 text-justify">
+          <p>
+            <strong class="font-bold italic">Kemungkinan Modifikasi untuk Situasi Kelas yang Berbeda:</strong> Apabila diterapkan pada kondisi kelas yang berbeda, permainan <em>Running Pyramid</em> dapat diganti dengan studi kasus, permainan kartu prioritas, atau diskusi kelompok. Platform Quizizz juga dapat diganti dengan lembar kerja tertulis apabila fasilitas teknologi terbatas.
+          </p>
+          <p>
+            Materi layanan dapat disesuaikan dengan kebutuhan murid, misalnya difokuskan pada pengelolaan waktu belajar, penggunaan media sosial, atau pengendalian prokrastinasi. Selain itu, alokasi waktu kegiatan dapat disesuaikan dengan jumlah murid dan kondisi kelas yang dihadapi.
+          </p>
+        </div>
+      </div>
+      </div>
+    </div>
+        
+    </div>
+    </div>
+
+    <!--SIKLUS 2-->
+    <div class="siklus-panel" id="panel-1">
+      <div class="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-8 items-stretch h-full">
+        <div class="w-full bg-white border-2 border-gray-grunge shadow-2xl rounded-sm overflow-hidden flex flex-col">
+          <iframe src="asset/siklus2/ARTEFAK_PRODUK_RPL_BIM_KELOMPOK.pdf" class="w-full flex-grow border-none" title="Jurnal Siklus 2"></iframe>
+          <a href="asset/siklus2/ARTEFAK_PRODUK_RPL_BIM_KELOMPOK.pdf" target="_blank" class="block w-full bg-maroon-dark text-cream text-center py-4 font-condensed text-xl tracking-widest uppercase hover:bg-maroon transition-colors">&#8599; Buka Jurnal Siklus 2</a>
+        </div>
+        <div class="flex flex-col gap-6">
+          <div class="bg-white border-2 border-gray-grunge rounded-sm p-8 shadow-lg">
+            <div class="font-condensed text-xl uppercase text-maroon-light mb-2">SIKLUS 2 </div>
+            <div class="font-display text-4xl uppercase mb-3">RPL, DOKUMENTASI, HASIL ANALISIS</div>
+            <div class="font-body italic text-maroon-dark/80 border-l-4 border-maroon pl-4">RPL BIM KEL</div>
+          </div>
+          <div class="bg-white border-2 border-gray-grunge rounded-sm overflow-hidden flex-grow flex flex-col">
+             <div class="flex justify-between items-center px-4 py-2 border-b-2 border-gray-grunge bg-cream/50">
+               <span class="font-condensed font-bold tracking-widest text-sm uppercase">Dokumentasi</span>
+               <button onclick="nextImg('c1')" class="font-condensed font-bold tracking-widest text-sm uppercase bg-maroon-dark text-cream px-4 py-1 hover:bg-maroon transition-colors rounded-sm">NEXT ❯</button>
+             </div>
+             <div class="p-4 flex-grow">
+               <img id="img-c1" src="asset/siklus2/foto1.jpg" class="w-full h-full object-cover rounded border-2 border-gray-grunge">
+             </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Analisis-->
+      <div class="bg-white border-2 border-gray-grunge rounded-sm shadow-lg mt-8 overflow-hidden">
+      <div class="bg-gray-50 border-b-2 border-gray-grunge px-6 py-4">
+        <h3 class="font-display text-3xl uppercase text-maroon-dark m-0">Hasil Analisis</h3>
+      </div>
+      
+<div class="p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-8 bg-gray-100 border-t-2 border-gray-grunge">
+        
+  <!-- KOLOM KIRI (Konteks, Tujuan, Kendala, Faktor Keberhasilan) -->
+  <div class="flex flex-col gap-6">
+    <div>
+      <h4 class="font-body font-bold tracking-widest text-sm uppercase text-maroon-light mb-2">Konteks Layanan</h4>
+      <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+        Artefak produk bimbingan kelompok disusun dalam pelaksanaan PPL Terbimbing di SMP Negeri 21 Surabaya untuk membantu murid yang memiliki kebiasaan terlambat datang ke sekolah akibat kurang optimalnya pengelolaan waktu sehari-hari. Layanan dilaksanakan dalam format bimbingan kelompok sehingga murid dapat saling bertukar pengalaman dan memperoleh solusi melalui dinamika kelompok. Media Uno Stacko yang dimodifikasi dengan pertanyaan reflektif digunakan untuk menciptakan suasana layanan yang interaktif dan menyenangkan.
+      </p>
+    </div>
+    
+    <div>
+      <h4 class="font-body font-bold tracking-widest text-sm uppercase text-maroon-light mb-2">Tujuan</h4>
+      <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+        Artefak produk layanan bimbingan kelompok bertujuan membantu murid memahami penyebab keterlambatan, menyadari pentingnya disiplin waktu, serta mampu menerapkan manajemen waktu melalui penyusunan prioritas kegiatan dalam kehidupan sehari-hari sehingga dapat mengurangi kebiasaan terlambat datang ke sekolah.
+      </p>
+    </div>
+
+    <div>
+      <h4 class="font-body font-bold tracking-widest text-sm uppercase text-maroon-light mb-2">Kendala dalam Penyusunan Produk</h4>
+      <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+        Kendala yang dihadapi dalam penyusunan produk ini adalah merancang pertanyaan pada media Uno Stacko agar mampu menggali pengalaman murid secara mendalam. Selain itu, diperlukan penyesuaian aktivitas dengan karakteristik anggota kelompok agar seluruh murid dapat terlibat secara aktif. Pengaturan waktu pada setiap tahapan layanan juga menjadi perhatian agar proses diskusi dapat berjalan secara efektif.
+      </p>
+    </div>
+
+    <div>
+      <h4 class="font-body font-bold tracking-widest text-sm uppercase text-maroon-light mb-2">Faktor Keberhasilan Penerapan Produk</h4>
+      <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+        Keberhasilan layanan dipengaruhi oleh terciptanya dinamika kelompok yang positif, penggunaan media Uno Stacko yang menarik, serta keterampilan guru BK dalam memoderatori diskusi dan menjaga suasana kelompok tetap kondusif. Materi yang diberikan sesuai dengan kebutuhan murid sehingga lebih mudah dipahami dan diterapkan. Adanya tindak lanjut berupa penyusunan Matriks Eisenhower secara mandiri juga membantu murid menerapkan hasil layanan dalam kehidupan sehari-hari.
+      </p>
+    </div>
+  </div>
+
+  <!-- KOLOM KANAN (Kelebihan & Kekurangan) -->
+  <div class="flex flex-col gap-6">
+    <div class="bg-cream/90 p-5 border border-gray-grunge rounded-sm">
+      <h4 class="font-body font-bold tracking-widest text-sm uppercase text-green-700 mb-3 border-b border-gray-grunge pb-2">Kelebihan Produk</h4>
+      <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+        Produk layanan bimbingan kelompok memiliki kelebihan berupa pemanfaatan dinamika kelompok yang memungkinkan murid saling berbagi pengalaman dan belajar dari teman sebaya. Penggunaan media Uno Stacko yang dimodifikasi membuat suasana layanan menjadi lebih menarik dan menyenangkan. Selain itu, kegiatan diskusi dan refleksi dapat meningkatkan kemampuan komunikasi, kerja sama, dan keterampilan berpikir kritis murid. Materi layanan juga bersifat kontekstual karena berkaitan dengan permasalahan yang dialami murid dalam kehidupan sehari-hari.
+      </p>
+    </div>
+
+    <div class="bg-cream/30 p-5 border border-gray-grunge rounded-sm">
+      <h4 class="font-body font-bold tracking-widest text-sm uppercase text-red-700 mb-3 border-b border-gray-grunge pb-2">Kekurangan Produk</h4>
+      <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+        Keberhasilan layanan sangat dipengaruhi oleh tingkat keaktifan anggota kelompok. Murid yang memiliki karakter pemalu cenderung kurang aktif dalam diskusi sehingga memerlukan dorongan dari guru BK. Selain itu, pengelolaan dinamika kelompok memerlukan keterampilan fasilitasi yang baik agar seluruh anggota memperoleh kesempatan yang sama untuk berpartisipasi. Pelaksanaan layanan juga membutuhkan waktu yang cukup panjang untuk mengakomodasi seluruh proses diskusi dan refleksi.
+      </p>
+    </div>
+  </div>
+  
+  <!-- KOLOM BAWAH FULL WIDTH (Kajian Teori & Modifikasi) -->
+  <div class="md:col-span-2 border-t-2 border-dashed border-gray-grunge pt-6">
+      <h4 class="font-body font-bold tracking-widest text-sm uppercase text-maroon-light mb-4">Kajian Teori & Modifikasi Layanan</h4>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Kajian Teori -->
+        <div class="font-body text-maroon-dark/90 leading-relaxed space-y-4 border-l-4 border-maroon pl-5 italic text-justify">
+          <p>
+            <strong class="font-bold">Kajian Teori dan Teori Pedagogi yang Diadopsi:</strong> Produk layanan bimbingan kelompok mengadopsi teori <em>Experiential Learning</em> yang menempatkan pengalaman sebagai sumber belajar utama. Melalui permainan Uno Stacko, murid memperoleh pengalaman konkret yang kemudian diperdalam melalui kegiatan diskusi dan refleksi. Selain itu, layanan ini juga menerapkan teori konstruktivisme sosial dari Vygotsky yang menekankan pentingnya interaksi sosial dalam membangun pengetahuan.
+          </p>
+          <p>
+            Dalam perspektif bimbingan dan konseling, layanan ini memanfaatkan dinamika kelompok sebagai sarana untuk membantu anggota kelompok saling memberikan dukungan dan menemukan solusi terhadap permasalahan yang dihadapi. Pendekatan tersebut sejalan dengan konsep <em>collaborative learning</em> yang memandang bahwa pembelajaran akan lebih efektif apabila dilakukan melalui kerja sama dan interaksi antarmurid.
+          </p>
+        </div>
+        
+        <!-- Modifikasi -->
+        <div class="font-body text-maroon-dark/90 leading-relaxed space-y-4 border-l-4 border-maroon pl-5 text-justify">
+          <p>
+            <strong class="font-bold italic">Kemungkinan Modifikasi untuk Situasi Kelas yang Berbeda:</strong> Media Uno Stacko dapat diganti dengan kartu pertanyaan, <em>spinning wheel</em>, atau studi kasus apabila kondisi dan fasilitas yang tersedia berbeda. Jumlah anggota kelompok dapat disesuaikan dengan kebutuhan layanan. 
+          </p>
+          <p>
+            Refleksi dapat dilakukan secara tertulis apabila murid kurang nyaman mengungkapkan pengalaman secara langsung. Topik layanan juga dapat dimodifikasi sesuai kebutuhan murid, seperti pengelolaan emosi, motivasi belajar, atau penggunaan media sosial secara bijak.
+          </p>
+        </div>
+      </div>
+  </div>
+  
+</div>
+    </div>
+    </div>
+
+<!--SIKLUS 3-->
+    <div class="siklus-panel" id="panel-2">
+      <div class="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-8 items-stretch h-full">
+        <div class="w-full bg-white border-2 border-gray-grunge shadow-2xl rounded-sm overflow-hidden flex flex-col">
+          <iframe src="asset/siklus3/ARTEFAK_PRODUK_RPL_KONS_INDIVIDU.pdf" class="w-full flex-grow border-none" title="Jurnal Siklus 3"></iframe>
+          <a href="asset/siklus3/ARTEFAK_PRODUK_RPL_KONS_INDIVIDU.pdf" target="_blank" class="block w-full bg-maroon-dark text-cream text-center py-4 font-condensed text-xl tracking-widest uppercase hover:bg-maroon transition-colors">&#8599; Buka Jurnal Siklus 3</a>
+        </div>
+        <div class="flex flex-col gap-6">
+          <div class="bg-white border-2 border-gray-grunge rounded-sm p-8 shadow-lg">
+            <div class="font-condensed text-xl uppercase text-maroon-light mb-2">SIKLUS 3</div>
+            <div class="font-display text-4xl uppercase mb-3">RPL, DOKUMENTASI, HASIL ANALISIS</div>
+            <div class="font-body italic text-maroon-dark/80 border-l-4 border-maroon pl-4">RPL KONS INDIV</div>
+          </div>
+          <div class="bg-white border-2 border-gray-grunge rounded-sm overflow-hidden flex-grow flex flex-col">
+             <div class="flex justify-between items-center px-4 py-2 border-b-2 border-gray-grunge bg-cream/50">
+               <span class="font-condensed font-bold tracking-widest text-sm uppercase">Dokumentasi</span>
+               <button onclick="nextImg('c2')" class="font-condensed font-bold tracking-widest text-sm uppercase bg-maroon-dark text-cream px-4 py-1 hover:bg-maroon transition-colors rounded-sm">NEXT ❯</button>
+             </div>
+             <div class="p-4 flex-grow">
+               <img id="img-c2" src="asset/siklus3/foto1.jpeg" class="w-full h-full object-cover rounded border-2 border-gray-grunge">
+             </div>
+          </div>
+        </div>
+      </div>
+      <!--Analisis-->
+      <div class="bg-white border-2 border-gray-grunge rounded-sm shadow-lg mt-8 overflow-hidden">
+      <div class="bg-gray-50 border-b-2 border-gray-grunge px-6 py-4">
+        <h3 class="font-display text-3xl uppercase text-maroon-dark m-0">Hasil Analisis</h3>
+      </div>
+      
+        <div class="p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-8 bg-gray-100 border-t-2 border-gray-grunge">
+                
+          <div class="flex flex-col gap-6">
+            <div>
+              <h4 class="font-body font-bold tracking-widest text-sm uppercase text-maroon-light mb-2">Konteks Layanan</h4>
+              <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+                Artefak produk konseling individu disusun dalam pelaksanaan layanan responsif pada PPL Terbimbing di SMP Negeri 21 Surabaya kepada seorang murid kelas VIII yang memiliki kebiasaan terlambat datang ke sekolah. Berdasarkan hasil asesmen, diketahui bahwa keterlambatan yang dialami tidak disebabkan oleh faktor lingkungan maupun keluarga, melainkan berkaitan dengan rendahnya motivasi bersekolah dan kurang efektifnya manajemen waktu. Oleh karena itu, pendekatan <em>Cognitive Behavioral Therapy</em> (CBT) dipilih untuk membantu konseli memahami hubungan antara pikiran, perasaan, dan perilaku yang mempengaruhi kedisiplinan datang ke sekolah.
+              </p>
+            </div>
+            
+            <div>
+              <h4 class="font-body font-bold tracking-widest text-sm uppercase text-maroon-light mb-2">Tujuan</h4>
+              <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+                Artefak produk bertujuan membantu konseli memahami faktor penyebab keterlambatan, mengenali pikiran dan perasaan yang mempengaruhi motivasi bersekolah, mengembangkan pola pikir yang lebih rasional terhadap kondisi sekolah saat ini, serta menyusun rencana tindakan untuk meningkatkan kedisiplinan dan motivasi datang tepat waktu ke sekolah.
+              </p>
+            </div>
+
+            <div>
+              <h4 class="font-body font-bold tracking-widest text-sm uppercase text-maroon-light mb-2">Kendala dalam Penyusunan Produk</h4>
+              <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+                Kendala yang dihadapi dalam penyusunan produk ini adalah mengidentifikasi akar permasalahan yang sebenarnya serta menyusun pertanyaan konseling yang mampu menggali pikiran dan perasaan konseli secara mendalam. Selain itu, penyusunan intervensi harus mempertimbangkan kondisi dan karakteristik unik yang dimiliki konseli sehingga pendekatan yang digunakan benar-benar sesuai dengan kebutuhan konseli.
+              </p>
+            </div>
+
+            <div>
+              <h4 class="font-body font-bold tracking-widest text-sm uppercase text-maroon-light mb-2">Faktor Keberhasilan Penerapan Produk</h4>
+              <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+                Keberhasilan layanan dipengaruhi oleh hubungan konseling yang hangat dan empatik antara konselor dan konseli. Kesesuaian pendekatan CBT dengan permasalahan yang dialami konseli juga menjadi faktor penting dalam membantu konseli melakukan perubahan. Adanya lembar refleksi diri dan lembar rencana tindakan membantu konseli memahami masalah serta merencanakan langkah perubahan secara lebih terarah. Selain itu, komitmen konseli dan adanya monitoring melalui kerja sama dengan wali kelas turut mendukung keberhasilan layanan.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-6">
+            <div class="bg-cream/90 p-5 border border-gray-grunge rounded-sm">
+              <h4 class="font-body font-bold tracking-widest text-sm uppercase text-green-700 mb-3 border-b border-gray-grunge pb-2">Kelebihan Produk</h4>
+              <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+                Produk konseling individu memiliki kelebihan karena pendekatan yang digunakan disesuaikan dengan kebutuhan dan karakteristik konseli. Penggunaan pendekatan <em>Cognitive Behavioral Therapy</em> membantu konseli memahami hubungan antara pikiran, perasaan, dan perilaku sehingga perubahan yang diharapkan tidak hanya terjadi pada aspek perilaku, tetapi juga pada aspek kognitif. Selain itu, adanya lembar refleksi diri dan lembar rencana tindakan membantu konseli mengenali masalah yang dihadapi serta menyusun langkah perubahan yang lebih terarah. Layanan konseling individu juga dilengkapi dengan tindak lanjut berupa monitoring perkembangan konseli melalui koordinasi dengan wali kelas.
+              </p>
+            </div>
+
+            <div class="bg-cream/30 p-5 border border-gray-grunge rounded-sm">
+              <h4 class="font-body font-bold tracking-widest text-sm uppercase text-red-700 mb-3 border-b border-gray-grunge pb-2">Kekurangan Produk</h4>
+              <p class="font-body text-maroon-dark/90 leading-relaxed text-justify">
+                Produk layanan konseling individu memiliki keterbatasan karena hanya diberikan kepada satu konseli sehingga hasilnya tidak dapat digeneralisasikan kepada murid lain. Keberhasilan layanan juga sangat dipengaruhi oleh keterbukaan dan komitmen konseli untuk melakukan perubahan. Selain itu, perubahan perilaku memerlukan proses yang berkelanjutan sehingga diperlukan layanan lanjutan untuk memperoleh hasil yang lebih optimal. Monitoring perkembangan konseli juga membutuhkan kerja sama dengan pihak lain, seperti wali kelas dan orang tua.
+              </p>
+            </div>
+          </div>
+          
+          <div class="md:col-span-2 border-t-2 border-dashed border-gray-grunge pt-6">
+              <h4 class="font-body font-bold tracking-widest text-sm uppercase text-maroon-light mb-4">Kajian Teori & Modifikasi Layanan</h4>
+              
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="font-body text-maroon-dark/90 leading-relaxed space-y-4 border-l-4 border-maroon pl-5 italic text-justify">
+                  <p>
+                    <strong class="font-bold">Kajian Teori dan Teori Pedagogi yang Diadopsi:</strong> Produk layanan konseling individu menggunakan pendekatan <em>Cognitive Behavioral Therapy</em> (CBT) yang dikembangkan oleh Aaron T. Beck. Pendekatan tersebut menjelaskan bahwa pikiran, perasaan, dan perilaku saling mempengaruhi satu sama lain. Melalui pendekatan CBT, konseli dibantu untuk mengidentifikasi pikiran yang kurang rasional, mengevaluasi keyakinan yang dimiliki, dan mengembangkan cara berpikir yang lebih adaptif sehingga dapat menghasilkan perubahan perilaku yang lebih positif.
+                  </p>
+                  <p>
+                    Selain itu, layanan ini juga menerapkan prinsip-prinsip bimbingan dan konseling seperti asas kerahasiaan, keterbukaan, kesukarelaan, dan kemandirian. Prinsip tersebut menjadi landasan penting dalam membangun hubungan konseling yang hangat dan penuh empati sehingga konseli merasa aman untuk mengungkapkan permasalahan yang dihadapi.
+                  </p>
+                </div>
+                
+                <div class="font-body text-maroon-dark/90 leading-relaxed space-y-4 border-l-4 border-maroon pl-5 text-justify">
+                  <p>
+                    <strong class="font-bold italic">Kemungkinan Modifikasi untuk Situasi yang Berbeda:</strong> Apabila diterapkan pada konseli dengan karakteristik masalah yang berbeda, pendekatan CBT dapat diganti dengan pendekatan behavioristik, konseling realitas, atau <em>Solution Focused Brief Counseling</em>. Teknik konseling yang digunakan juga dapat disesuaikan dengan jenis permasalahan yang dihadapi konseli.
+                  </p>
+                  <p>
+                    Durasi layanan dapat diperpanjang apabila masalah yang dihadapi lebih kompleks. Selain itu, orang tua dapat dilibatkan secara lebih intensif apabila faktor keluarga menjadi penyebab utama permasalahan yang dialami konseli.
+                  </p>
+                </div>
+              </div>
+          </div>
+          
+      </div>
+    </div>
+
+    </div> <div class="w-full max-w-5xl mx-auto mt-16 md:mt-20 z-10">
+    <div class="bg-maroon-dark border-2 border-gray-grunge rounded-sm shadow-2xl p-8 md:p-12 relative overflow-hidden">
+      
+      <div class="absolute top-0 right-0 w-64 h-64 bg-cream opacity-5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/4"></div>
+      <div class="absolute bottom-0 left-0 w-64 h-64 bg-cream opacity-5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/4"></div>
+
+      <div class="relative z-10 flex flex-col items-center text-center">
+        <div class="inline-block px-4 py-1 border border-cream/30 rounded-full mb-6">
+          <span class="font-condensed text-xs md:text-sm tracking-[0.3em] uppercase text-cream/80">Refleksi Akhir</span>
+        </div>
+        
+        <h2 class="font-display text-4xl md:text-5xl text-cream mb-8 uppercase leading-tight">
+          Kesimpulan <br class="hidden md:block"> Keseluruhan Siklus
+        </h2>
+        
+        <div class="w-24 h-1 bg-cream/40 mb-8 rounded-full"></div>
+
+        <p class="font-body text-lg md:text-xl text-cream/90 leading-relaxed italic text-justify md:text-center">
+          "Hasil analisis dari tiga siklus menunjukkan bahwa penggunaan metode, media, dan pendekatan yang sesuai dengan kebutuhan murid berperan penting dalam keberhasilan layanan bimbingan dan konseling. Penerapan <strong class="text-white font-bold">Experiential Learning</strong> pada bimbingan klasikal dan bimbingan kelompok serta pendekatan <strong class="text-white font-bold">Cognitive Behavioral Therapy (CBT)</strong> pada konseling individu memberikan pengalaman belajar yang bermakna serta membantu murid mengembangkan perilaku yang lebih positif. Melalui ketiga siklus tersebut, saya memperoleh pengalaman nyata dalam mengintegrasikan teori perkuliahan dengan praktik layanan bimbingan dan konseling di sekolah."
+        </p>
+      </div>
+      
+    </div>
+  </div>
+  </section> ```
+      
+    </div>
+
+  </div>
+  <script>
+  function switchSiklus(idx) {
+    document.querySelectorAll('.siklus-panel').forEach((p, i) => {
+      p.classList.toggle('active', i === idx);
+    });
+    document.querySelectorAll('.siklus-tab').forEach((t, i) => {
+      t.classList.toggle('active', i === idx);
+    });
+  }
+
+  // --- SCRIPT UNTUK CAROUSEL TOMBOL NEXT ---
+  
+  // Masukkan daftar nama file foto Anda di dalam array ini
+  const fotoList = {
+    c0: ["asset/siklus1/foto1.jpg", "asset/siklus1/foto2.jpg",], // Daftar foto Siklus 1
+    c1: ["asset/siklus2/foto1.jpg", "asset/siklus2/foto2.jpg", "asset/siklus2/foto3.jpg"], // Daftar foto Siklus 2
+    c2: ["asset/siklus3/foto1.jpeg", "asset/siklus3/foto2.jpeg", "asset/siklus3/foto3.jpeg"]  // Daftar foto Siklus 3
+  };
+  
+  // Melacak indeks foto yang sedang ditampilkan
+  const currentIdx = { c0: 0, c1: 0, c2: 0 };
+
+  function nextImg(panelId) {
+    // Tambah index, jika sudah di ujung, kembali ke 0
+    currentIdx[panelId] = (currentIdx[panelId] + 1) % fotoList[panelId].length;
+    // Ganti src gambar dengan foto berikutnya
+    document.getElementById('img-' + panelId).src = fotoList[panelId][currentIdx[panelId]];
+  }
+</script>
+
+</section>
+<!-- ========================================== -->
+<!-- SECTION LAMPIRAN (2 PDF PER SIKLUS) -->
+<!-- ========================================== -->
+
+<!-- Sedikit tambahan CSS agar animasi tab lampiran berjalan mulus -->
+<style>
+  .lampiran-panel { display: none; animation: fadeInLampiran 0.4s ease-out; }
+  .lampiran-panel.active { display: block; }
+  @keyframes fadeInLampiran { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+  .a4-container {
+    /* Rasio A4 (Lebar : Tinggi) */
+    aspect-ratio: 1 / 1.414; 
+    width: 100%;
+    /* Kita buat tingginya mengikuti lebar agar terlihat seperti kertas */
+    height: auto; 
+    min-height: 800px; /* Biar tidak terlalu pendek di HP */
+}
+</style>
+
+<section id="lampiran" class="bg-cream py-16 px-4 md:px-8 flex flex-col font-body text-maroon-dark border-t-4 border-dashed border-maroon-dark/20 relative z-10">
+  
+  <!-- Header Lampiran -->
+  <div class="text-center mb-12">
+    <p class="font-condensed text-base md:text-lg tracking-[0.4em] opacity-60 uppercase mb-2">Dokumen Pendukung</p>
+    <h1 class="font-display text-6xl md:text-[8vw] leading-[0.85] uppercase text-maroon-dark drop-shadow-sm">Lampiran</h1>
+  </div>
+
+  <!-- Tombol Tab Siklus -->
+  <div class="flex flex-wrap justify-center gap-3 md:gap-6 mb-10 border-b-2 border-gray-grunge pb-4 max-w-5xl mx-auto w-full">
+    <button class="lampiran-tab active px-8 py-4 font-condensed text-lg md:text-xl tracking-[0.15em] uppercase text-maroon-dark border-2 border-gray-grunge rounded-sm bg-white hover:border-maroon hover:text-maroon transition-all duration-300" onclick="switchLampiran(0)">SIKLUS I</button>
+    <button class="lampiran-tab px-8 py-4 font-condensed text-lg md:text-xl tracking-[0.15em] uppercase text-maroon-dark border-2 border-gray-grunge rounded-sm bg-white hover:border-maroon hover:text-maroon transition-all duration-300" onclick="switchLampiran(1)">SIKLUS II</button>
+    <button class="lampiran-tab px-8 py-4 font-condensed text-lg md:text-xl tracking-[0.15em] uppercase text-maroon-dark border-2 border-gray-grunge rounded-sm bg-white hover:border-maroon hover:text-maroon transition-all duration-300" onclick="switchLampiran(2)">SIKLUS III</button>
+  </div>
+
+  <!-- Kontainer Panel -->
+  <div class="w-full max-w-[98%] 2xl:max-w-[1400px] mx-auto flex-grow">
+    
+    <!-- ================= PANEL 0 (SIKLUS 1) ================= -->
+    <div class="lampiran-panel active" id="lampiran-0">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+        
+        <!-- PDF 1 Kiri -->
+        <div class="w-full bg-white border-2 border-gray-grunge shadow-xl rounded-sm overflow-hidden flex flex-col h-[70vh] min-h-[500px]">
+          <div class="bg-gray-50 border-b-2 border-gray-grunge px-4 py-3 flex justify-between items-center">
+             <span class="font-condensed font-bold tracking-widest text-sm uppercase text-maroon-dark">SIKLUS 1 LAMPIRAN 7</span>
+          </div>
+          <iframe src="asset/lampiran/Siklus 1/SIKLUS 1 LAMPIRAN 7.pdf" class="w-full flex-grow border-none" title="Lampiran A Siklus 1"></iframe>
+          <a href="asset/lampiran/Siklus 1/SIKLUS 1 LAMPIRAN 7.pdf" target="_blank" class="block w-full bg-maroon-dark text-cream text-center py-4 font-condensed text-lg tracking-widest uppercase hover:bg-maroon transition-colors">&#8599; Buka Dokumen</a>
+        </div>
+
+        <!-- PDF 2 Kanan -->
+        <div class="w-full bg-white border-2 border-gray-grunge shadow-xl rounded-sm overflow-hidden flex flex-col h-[70vh] min-h-[500px]">
+          <div class="bg-gray-50 border-b-2 border-gray-grunge px-4 py-3 flex justify-between items-center">
+             <span class="font-condensed font-bold tracking-widest text-sm uppercase text-maroon-dark">SIKLUS 1 LAMPIRAN 8</span>
+          </div>
+          <iframe src="asset/lampiran/Siklus 1/SIKLUS 1 LAMPIRAN 8.pdf" class="w-full flex-grow border-none" title="Lampiran B Siklus 1"></iframe>
+          <a href="asset/lampiran/Siklus 1/SIKLUS 1 LAMPIRAN 8.pdf" target="_blank" class="block w-full bg-maroon-dark text-cream text-center py-4 font-condensed text-lg tracking-widest uppercase hover:bg-maroon transition-colors">&#8599; Buka Dokumen</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ================= PANEL 1 (SIKLUS 2) ================= -->
+    <div class="lampiran-panel" id="lampiran-1">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+        
+        <!-- PDF 1 Kiri -->
+        <div class="w-full bg-white border-2 border-gray-grunge shadow-xl rounded-sm overflow-hidden flex flex-col h-[70vh] min-h-[500px]">
+          <div class="bg-gray-50 border-b-2 border-gray-grunge px-4 py-3 flex justify-between items-center">
+             <span class="font-condensed font-bold tracking-widest text-sm uppercase text-maroon-dark">SIKLUS 2 LAMPIRAN 7</span>
+          </div>
+          <iframe src="asset/lampiran/Siklus 2/SIKLUS 2 LAMPIRAN 7.pdf" class="w-full flex-grow border-none" title="Lampiran A Siklus 2"></iframe>
+          <a href="asset/lampiran/Siklus 2/SIKLUS 2 LAMPIRAN 7.pdf" target="_blank" class="block w-full bg-maroon-dark text-cream text-center py-4 font-condensed text-lg tracking-widest uppercase hover:bg-maroon transition-colors">&#8599; Buka Dokumen</a>
+        </div>
+
+        <!-- PDF 2 Kanan -->
+        <div class="w-full bg-white border-2 border-gray-grunge shadow-xl rounded-sm overflow-hidden flex flex-col h-[70vh] min-h-[500px]">
+          <div class="bg-gray-50 border-b-2 border-gray-grunge px-4 py-3 flex justify-between items-center">
+             <span class="font-condensed font-bold tracking-widest text-sm uppercase text-maroon-dark">SIKLUS 2 LAMPIRAN 8</span>
+          </div>
+          <iframe src="asset/lampiran/Siklus 2/SIKLUS 2 LAMPIRAN 8.pdf" class="w-full flex-grow border-none" title="Lampiran B Siklus 2"></iframe>
+          <a href="asset/lampiran/Siklus 2/SIKLUS 2 LAMPIRAN 8.pdf" target="_blank" class="block w-full bg-maroon-dark text-cream text-center py-4 font-condensed text-lg tracking-widest uppercase hover:bg-maroon transition-colors">&#8599; Buka Dokumen</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ================= PANEL 2 (SIKLUS 3) ================= -->
+    <div class="lampiran-panel" id="lampiran-2">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+        
+        <!-- PDF 1 Kiri -->
+        <div class="w-full bg-white border-2 border-gray-grunge shadow-xl rounded-sm overflow-hidden flex flex-col h-[70vh] min-h-[500px]">
+          <div class="bg-gray-50 border-b-2 border-gray-grunge px-4 py-3 flex justify-between items-center">
+             <span class="font-condensed font-bold tracking-widest text-sm uppercase text-maroon-dark">SIKLUS 3 LAMPIRAN 7</span>
+          </div>
+          <iframe src="asset/lampiran/Siklus 3/SIKLUS 3 LAMPIRAN 7.pdf" class="w-full flex-grow border-none" title="Lampiran A Siklus 3"></iframe>
+          <a href="asset/lampiran/Siklus 3/SIKLUS 3 LAMPIRAN 7.pdf" target="_blank" class="block w-full bg-maroon-dark text-cream text-center py-4 font-condensed text-lg tracking-widest uppercase hover:bg-maroon transition-colors">&#8599; Buka Dokumen</a>
+        </div>
+
+        <!-- PDF 2 Kanan -->
+        <div class="w-full bg-white border-2 border-gray-grunge shadow-xl rounded-sm overflow-hidden flex flex-col h-[70vh] min-h-[500px]">
+          <div class="bg-gray-50 border-b-2 border-gray-grunge px-4 py-3 flex justify-between items-center">
+             <span class="font-condensed font-bold tracking-widest text-sm uppercase text-maroon-dark">SIKLUS 3 LAMPIRAN 8</span>
+          </div>
+          <iframe src="asset/lampiran/Siklus 3/SIKLUS 3 LAMPIRAN 8.pdf" class="w-full flex-grow border-none" title="Lampiran B Siklus 3"></iframe>
+          <a href="asset/lampiran/Siklus 3/SIKLUS 3 LAMPIRAN 8.pdf" target="_blank" class="block w-full bg-maroon-dark text-cream text-center py-4 font-condensed text-lg tracking-widest uppercase hover:bg-maroon transition-colors">&#8599; Buka Dokumen</a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- ========================================== -->
+<!-- JAVASCRIPT KHUSUS LAMPIRAN -->
+<!-- ========================================== -->
+<script>
+  function switchLampiran(idx) {
+    // Sembunyikan/tampilkan panel lampiran
+    document.querySelectorAll('.lampiran-panel').forEach((p, i) => {
+      p.classList.toggle('active', i === idx);
+    });
+    // Ubah status tombol tab lampiran
+    document.querySelectorAll('.lampiran-tab').forEach((t, i) => {
+      t.classList.toggle('active', i === idx);
+      
+      // Styling khusus saat tombol aktif (agar efek tenggelamnya konsisten)
+      if (i === idx) {
+        t.classList.add('bg-white', 'shadow-inner', 'translate-y-1');
+        t.classList.remove('bg-cream');
+      } else {
+        t.classList.remove('bg-white', 'shadow-inner', 'translate-y-1');
+      }
+    });
+  }
+</script>
+</section>
+
+<!-- REFLEKSI dan FILOSOFI-->
+<section class="bg-cream py-20 px-4 md:px-8 flex flex-col items-center font-body text-maroon-dark overflow-hidden relative z-10">
+  
+  <div class="text-center mb-16 relative">
+    <span class="inline-block px-4 py-1 border-2 border-maroon-light/30 rounded-full mb-4 font-condensed text-xs md:text-sm tracking-[0.3em] uppercase text-maroon-light bg-white shadow-sm">
+      Catatan Akhir
+    </span>
+    <h1 class="font-display text-5xl md:text-[6vw] leading-none uppercase text-maroon-dark drop-shadow-sm flex items-center justify-center gap-4">
+      Refleksi & Filosofi 
+    </h1>
+  </div>
+
+  <div class="w-full max-w-5xl mx-auto flex flex-col gap-12">
+
+    <div class="group relative bg-white rounded-[2rem] p-8 md:p-10 border-2 border-maroon-dark/10 shadow-[0_10px_30px_rgba(74,14,24,0.05)] hover:border-maroon-light/50 hover:shadow-[0_20px_40px_rgba(74,14,24,0.1)] transition-all duration-500">
+      
+      <div class="absolute -top-6 -left-4 bg-cream border-2 border-maroon-light rounded-full p-3 shadow-md group-hover:rotate-12 transition-transform duration-300">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8A2B3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3l1.912 5.813a2 2 0 001.275 1.275L21 12l-5.813 1.912a2 2 0 00-1.275 1.275L12 21l-1.912-5.813a2 2 0 00-1.275-1.275L3 12l5.813-1.912a2 2 0 001.275-1.275L12 3z"/>
+        </svg>
+      </div>
+
+      <h2 class="font-display text-3xl md:text-4xl uppercase text-maroon-dark mb-6 ml-4 border-b-2 border-dashed border-maroon-light/30 pb-4 inline-block">
+        Model Guru yang Dituju
+      </h2>
+      
+      <div class="font-body text-maroon-dark/85 leading-relaxed space-y-5 text-justify text-lg">
+        <p>
+          Selama mengikuti Pendidikan Profesi Guru dan pelaksanaan PPL Terbimbing, saya memiliki visi untuk menjadi guru Bimbingan dan Konseling yang profesional, reflektif, dan berpusat pada kebutuhan murid. Saya ingin menjadi guru yang tidak hanya mampu memberikan layanan bimbingan dan konseling secara tepat, tetapi juga mampu membangun hubungan yang hangat, empatik, dan mendukung perkembangan potensi setiap murid.
+        </p>
+        <p>
+          Kompetensi yang ingin saya kembangkan meliputi kompetensi pedagogik, profesional, sosial, dan kepribadian. Selain itu, saya berupaya membangun karakter sebagai guru yang adaptif, kreatif, kolaboratif, serta memiliki komitmen untuk terus belajar dan mengembangkan diri sesuai dengan perkembangan kebutuhan murid dan dunia pendidikan.
+        </p>
+        <p>
+          Melalui pengalaman selama PPL Terbimbing, saya semakin menyadari bahwa guru profesional tidak hanya berperan sebagai pemberi layanan, tetapi juga sebagai fasilitator, motivator, dan pendamping yang membantu murid berkembang secara optimal baik dalam aspek akademik maupun perkembangan pribadi, sosial, belajar, dan karier.
+        </p>
+      </div>
+    </div>
+
+    <div class="group relative bg-maroon-dark/5 rounded-[2rem] p-8 md:p-10 border-2 border-maroon-dark/10 shadow-[0_10px_30px_rgba(74,14,24,0.05)] hover:bg-maroon-dark/10 hover:shadow-[0_20px_40px_rgba(74,14,24,0.1)] transition-all duration-500 md:ml-12">
+      
+      <div class="absolute -top-6 -right-4 bg-white border-2 border-maroon-light rounded-full p-3 shadow-md group-hover:-rotate-12 transition-transform duration-300">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8A2B3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+          <path d="M12 8h4"></path>
+          <path d="M12 12h4"></path>
+        </svg>
+      </div>
+
+      <h2 class="font-display text-3xl md:text-4xl uppercase text-maroon-dark mb-6 border-b-2 border-dashed border-maroon-dark/20 pb-4 inline-block">
+        Refleksi Akhir Praktik Pengalaman Lapangan Terbimbing
+      </h2>
+      
+      <div class="font-body text-maroon-dark/90 leading-relaxed space-y-5 text-justify text-lg">
+        <p>
+          Pelaksanaan PPL Terbimbing memberikan pengalaman yang berharga dalam mengintegrasikan teori yang diperoleh selama perkuliahan dengan praktik nyata di sekolah. Melalui kegiatan observasi, asistensi, serta praktik layanan bimbingan dan konseling, saya belajar mengenai pentingnya perencanaan layanan yang sistematis, penggunaan metode dan media yang sesuai, serta kemampuan membangun hubungan yang positif dengan murid.
+        </p>
+        <p>
+          Selama proses tersebut, terdapat beberapa tantangan yang saya hadapi, seperti mengelola dinamika kelas, menyesuaikan metode layanan dengan karakteristik murid, serta membangun komunikasi yang efektif saat melaksanakan konseling individu. Tantangan tersebut saya atasi melalui diskusi dengan guru pamong dan dosen pembimbing, melakukan refleksi terhadap pelaksanaan layanan, serta melakukan perbaikan pada tahap berikutnya.
+        </p>
+        <p>
+          Dalam refleksi akhir, saya memperoleh berbagai masukan konstruktif, di antaranya pentingnya meningkatkan keterampilan bertanya, memperkuat kemampuan mengelola layanan secara fleksibel, serta memperdalam penguasaan pendekatan dan teknik bimbingan dan konseling. Masukan tersebut menjadi bekal untuk melakukan perbaikan dan pengembangan diri pada tahap PPL Mandiri sehingga saya dapat memberikan layanan yang lebih efektif dan sesuai dengan kebutuhan murid.
+        </p>
+      </div>
+    </div>
+
+    <div class="group relative bg-white rounded-[2rem] p-8 md:p-10 border-2 border-maroon-dark/10 shadow-[0_10px_30px_rgba(74,14,24,0.05)] hover:border-maroon-light/50 hover:shadow-[0_20px_40px_rgba(74,14,24,0.1)] transition-all duration-500">
+      
+      <div class="absolute -top-6 -left-4 bg-cream border-2 border-maroon-light rounded-full p-3 shadow-md group-hover:scale-110 transition-transform duration-300">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8A2B3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+        </svg>
+      </div>
+
+      <h2 class="font-display text-3xl md:text-4xl uppercase text-maroon-dark mb-6 ml-4 border-b-2 border-dashed border-maroon-light/30 pb-4 inline-block">
+        Filosofi Mengajar
+      </h2>
+      
+      <div class="font-body text-maroon-dark/85 leading-relaxed space-y-5 text-justify text-lg">
+        <p>
+          Saya meyakini bahwa setiap murid memiliki potensi, kebutuhan, dan keunikan yang berbeda sehingga layanan pendidikan perlu disesuaikan dengan karakteristik serta tahap perkembangannya. Oleh karena itu, saya memandang bahwa peran guru bukan hanya sebagai penyampai informasi, tetapi juga sebagai fasilitator yang membantu murid menemukan, mengembangkan, dan mengaktualisasikan potensi yang dimilikinya.
+        </p>
+        <p>
+          Dalam praktik pembelajaran dan layanan bimbingan dan konseling selama PPL Terbimbing, saya meyakini bahwa pengalaman belajar yang bermakna akan memberikan dampak yang lebih mendalam bagi murid. Keyakinan tersebut sejalan dengan teori <em>Experiential Learning</em> dari David Kolb yang menekankan pentingnya pengalaman, refleksi, pemahaman konsep, dan penerapan dalam kehidupan sehari-hari. Oleh karena itu, saya berupaya menciptakan layanan yang aktif, menyenangkan, dan relevan dengan kebutuhan murid.
+        </p>
+        <p>
+          Selain itu, saya meyakini bahwa hubungan yang hangat, empatik, dan penuh penghargaan merupakan pondasi penting dalam proses pendidikan. Pandangan ini sejalan dengan pendekatan humanistik yang menempatkan murid sebagai individu yang memiliki kemampuan untuk berkembang dan mencapai aktualisasi diri. Dengan demikian, saya ingin menjadi guru yang tidak hanya mengajarkan pengetahuan, tetapi juga mampu mendampingi, menginspirasi, dan membantu murid berkembang menjadi pribadi yang mandiri, bertanggung jawab, serta mampu menghadapi tantangan kehidupan di masa depan.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="bg-maroon py-6 text-center">
+    <p class="font-condensed text-white/60 text-sm tracking-widest">© 2026 TYASWIRANTI FAJRINA — ALL RIGHTS RESERVED</p>
+  </footer>
+
+  <!-- ====== JAVASCRIPT (inline) ====== -->
+  <script>
+    /* ---- HAMBURGER MENU ---- */
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const mobileMenu   = document.getElementById('mobileMenu');
+
+    hamburgerBtn.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.toggle('open');
+      hamburgerBtn.classList.toggle('open', isOpen);
+      hamburgerBtn.setAttribute('aria-expanded', isOpen);
+    });
+
+    /* Tutup menu saat link diklik */
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.remove('open');
+        hamburgerBtn.classList.remove('open');
+        hamburgerBtn.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    /* Tutup menu saat klik di luar navbar */
+    document.addEventListener('click', (e) => {
+      const navbar = document.getElementById('navbar');
+      if (!navbar.contains(e.target)) {
+        mobileMenu.classList.remove('open');
+        hamburgerBtn.classList.remove('open');
+        hamburgerBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    /* ---- SMOOTH SCROLL untuk anchor link ---- */
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(anchor.getAttribute('href'));
+        if (target) {
+          const offset = 70; /* tinggi navbar */
+          const top = target.getBoundingClientRect().top + window.scrollY - offset;
+          window.scrollTo({ top, behavior: 'smooth' });
+        }
+      });
+    });
+
+    /* ---- NAVBAR shadow on scroll ---- */
+    window.addEventListener('scroll', () => {
+      const navbar = document.getElementById('navbar');
+      if (window.scrollY > 20) {
+        navbar.style.boxShadow = '0 2px 16px rgba(0,0,0,0.12)';
+      } else {
+        navbar.style.boxShadow = 'none';
+      }
+    });
+
+    /* ---- ACTIVE NAV berdasarkan section yang sedang terlihat ---- */
+const sections = document.querySelectorAll('section[id]');
+const allNavLinks = document.querySelectorAll('.nav-link');
+
+function setActive(id) {
+  allNavLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === '#' + id) {
+      link.classList.add('active');
+    }
+  });
+}
+
+    const sectionNavMap = {
+      'home'   : '#home',
+      'about'  : '#about',
+      'artefak-produk' : '#artefak-produk',
+      'lampiran': '#lampiran',
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.id;
+          if (sectionNavMap[id]) setActive(id);
+        }
+      });
+    }, {
+      root: null,
+      threshold: 0.4, // section harus masuk 40% viewport dulu
+    });
+
+    sections.forEach(section => {
+      if (sectionNavMap[section.id]) observer.observe(section);
+    });
+
+    /* Home aktif saat pertama load */
+    setActive('home');
+  </script>
+
+  <!-- ========================================== -->
+<!-- TOMBOL BACK TO TOP (STICKY KANAN BAWAH) -->
+<!-- ========================================== -->
+<button 
+  id="backToTopBtn" 
+  onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+  class="fixed bottom-6 right-6 md:bottom-10 md:right-10 z-50 bg-cream text-maroon-dark w-14 h-14 md:w-16 md:h-16 flex items-center justify-center rounded-full border-[3px] border-maroon-dark shadow-[0_5px_15px_rgba(74,14,24,0.3)] hover:bg-maroon-dark hover:text-cream hover:scale-110 transition-all duration-300 opacity-0 pointer-events-none group"
+  title="Ke Atas Yuk! 🌸"
+>
+  <!-- Animasi lompat-lompat (bounce) -->
+  <div class="flex flex-col items-center justify-center animate-bounce mt-1">
+    <span class="text-[10px] md:text-xs mb-[-4px]">✨</span>
+    <!-- Panah membulat yang lebih soft -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 19V5"/>
+      <path d="M5 12l7-7 7 7"/>
+    </svg>
+  </div>
+</button>
+<script>
+// --- SCRIPT UNTUK TOMBOL BACK TO TOP ---
+  window.addEventListener('scroll', () => {
+    const btn = document.getElementById('backToTopBtn');
+    // Jika di-scroll lebih dari 300px ke bawah, tombol muncul
+    if (window.scrollY > 300) {
+      btn.classList.remove('opacity-0', 'pointer-events-none');
+      btn.classList.add('opacity-100', 'pointer-events-auto');
+    } else {
+      // Jika di posisi paling atas, tombol sembunyi
+      btn.classList.add('opacity-0', 'pointer-events-none');
+      btn.classList.remove('opacity-100', 'pointer-events-auto');
+    }
+  });
+  </script>
+</body>
+</html>
